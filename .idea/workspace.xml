@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80842216-0548-4d2f-9558-fc459b3ffdf9" name="Default Changelist" comment="" />
+    <list default="true" id="80842216-0548-4d2f-9558-fc459b3ffdf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyDataBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MySampleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pickup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/HeloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/HeloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyBootAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyBootAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyDataRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyDataRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/HeloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/HeloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyBootAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyBootAppApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyDataRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyDataRestController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +27,19 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Pu0wnAK1YaSLudZeY4MvPCT3HP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -44,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyBootAppApplication">
     <configuration name="MyBootAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fumiya.springboot.MyBootAppApplication" />
       <module name="MyBootApp" />
@@ -58,8 +77,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in MyBootApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBootApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templates in MyBootApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBootApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="templates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="templates" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyBootAppApplication" />
+        <item itemvalue="JUnit.All in MyBootApp" />
+        <item itemvalue="JUnit.templates in MyBootApp" />
+        <item itemvalue="Application.MyBootAppApplication" />
         <item itemvalue="Application.MyBootAppApplication" />
       </list>
     </recent_temporary>
@@ -76,5 +121,16 @@
       <updated>1566708914878</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

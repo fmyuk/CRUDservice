@@ -4,8 +4,10 @@ import lombok.Data;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
+@XmlRootElement
 @Entity
 @Table(name = "mydata")
 @Data

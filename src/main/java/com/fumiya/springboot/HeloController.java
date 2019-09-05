@@ -23,6 +23,21 @@ public class HeloController {
     MyDataRepository repository;
 
     @Autowired
+    MyDataBean myDataBean;
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ModelAndView indexById(@PathVariable long id, ModelAndView mav) {
+        mav.setViewName("pickup");
+        mav.addObject("title", "Pickup Page");
+        String table = "<table>"
+                + myDataBean.getTableTagById(id)
+                + "</table>";
+        mav.addObject("msg", "pickup data id = " + id);
+        mav.addObject("data", table);
+        return mav;
+    }
+
+    @Autowired
     private MyDataService service;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
