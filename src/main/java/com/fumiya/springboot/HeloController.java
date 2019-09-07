@@ -2,6 +2,8 @@ package com.fumiya.springboot;
 
 import com.fumiya.springboot.repositories.MyDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -106,6 +108,16 @@ public class HeloController {
     public ModelAndView remove(@RequestParam long id, ModelAndView mav) {
         repository.deleteById(id);
         return new ModelAndView("redirect:/");
+    }
+
+    @RequestMapping(value = "/page", method = RequestMethod.GET)
+    public ModelAndView index(ModelAndView mav, Pageable pageable) {
+        mav.setViewName("index");
+        mav.addObject("title", "Find Page");
+        mav.addObject("msg", "MyDataのサンプルです。");
+        Page<MyData> list = repository.findAll(pageable);
+        mav.addObject("datalist", list);
+        return mav;
     }
 
     @PostConstruct

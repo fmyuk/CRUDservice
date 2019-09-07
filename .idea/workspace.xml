@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80842216-0548-4d2f-9558-fc459b3ffdf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyDataBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MySampleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pickup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/HeloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/HeloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyBootAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyBootAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyDataRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/MyDataRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/repositories/MyDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fumiya/springboot/repositories/MyDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/HeloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/HeloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyBootAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyBootAppApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyDataRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/MyDataRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/repositories/MyDataRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fumiya/springboot/repositories/MyDataRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Rest" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Pu0wnAK1YaSLudZeY4MvPCT3HP" />
@@ -120,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1566708914878</updated>
     </task>
+    <task id="LOCAL-00001" summary="ファイル追加">
+      <created>1567719350146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567719350146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ファイル追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイル追加" />
   </component>
 </project>
